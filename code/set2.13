@@ -1,0 +1,11 @@
+
+one = (input(" "))
+if one> 1:
+    for i in range(2, one):
+        if (one% i) == 0:
+            print(one, "no")
+            break
+    else:
+        print(one,"yes")
+else:
+    print(one, "no")
